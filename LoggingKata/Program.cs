@@ -60,7 +60,9 @@ namespace LoggingKata
                     }
                 }
             }
-            Console.WriteLine($"{tracOne?.Name}{tracTwo?.Name}");
+            Console.WriteLine($" The {tracOne.Name}location and the {tracTwo.Name} location are {distance * .000621371} miles apart.");
+            
+
 
 
 
